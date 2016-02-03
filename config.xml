@@ -14,7 +14,7 @@
 	    <repeatTimes>1</repeatTimes>
 	
 	    <!-- should music starts automatically -->
-	    <autostart>yes</autostart>
+	    <autostart>no</autostart>
 	
 	    <!-- images could be customized by changing images in button directory (30x30 pixels) -->
 	   
