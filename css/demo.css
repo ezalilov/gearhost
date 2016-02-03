@@ -1,0 +1,114 @@
+
+body{
+	background-color: transparent;
+    background-repeat: repeat, no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: auto, cover;
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    background-size: auto, cover;
+	color: #fff;
+	font-family: 'Josefin Slab', Arial, sans-serif;
+	font-size: 13px;
+
+	font-family: 'Poiret One', cursive;
+}
+body{
+	background-image: url(image/pattern.png), url(image/IBE.jpg);
+	margin: 0px;
+	padding-bottom: 0px;
+    border-right-width: 10px;
+    margin-right: -10;
+    border-top-width: 10px;
+}
+.header{
+	background: rgba(0,0,0,0.7);
+	padding: 10px;
+	margin-bottom: 150px;
+}
+.container{
+	position:relative;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+}
+.content{
+	position:relative;
+    width:580px;
+    margin: 0 auto;
+}
+h1{
+	margin:0px;
+	padding:20px;
+	font-size:42px;
+	color:#fff;
+	text-align:left;
+	font-weight:1000;
+    text-align:left;
+}
+h1 span{
+	font-size:32px;
+	color:#ddd;
+	font-weight:1000;
+	padding-top:10px;
+}
+ul{
+	padding-left: 0px;
+}
+.log li{
+	display: block;
+	padding-bottom: 2px;
+}
+input{
+	text-align: center;
+	border-radius: 5px;
+}
+
+.b-container{
+    width:200px;
+    height:150px;
+    background-color: #ccc;
+    margin:0px auto;
+    padding:10px;
+    font-size:30px;
+    color: #fff;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    text-align: center;
+}
+.b-popup .b-popup-content{
+
+    margin:125px auto 0px auto;
+    width:400px;
+    height: 100px;
+    padding:10px;
+    background-color: rgba(197,197,197,0.85);
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+.b-popup .b-popup-content2{
+
+    margin:125px auto 0px auto;
+    width:560px;
+    height: 400px;
+    padding:10px;
+    background-color: rgba(197,197,197,0.85);
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.b-popup-content a{
+	font-size: 20px;
+    font-weight: 1200px;
+}

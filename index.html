@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>IBE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<script src="js/jq.js"></script>
+	<script src="js/pop.js"></script>
+	<!--<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css' /> -->
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	
+
+</head>
+<body style="background-image: url(image/pattern.png), url(image/IBE.jpg);">
+
+
+
+	<div class="container">
+		<div class="header">
+			<h1>THE IBE <span>International breakdance event</span>
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="30" height="30">
+
+<PARAM NAME=movie VALUE="audioplay.swf?playerid=1">
+<PARAM NAME=quality VALUE=high>
+<PARAM NAME=bgcolor VALUE=#999999>
+<embed src="audioplay.swf?playerid=1" quality=high bgcolor=#999999 width="30" height="30"
+align="" TYPE="application/x-shockwave-flash"
+pluginspage="http://www.macromedia.com/go/getflashplayer">
+</embed>
+</object>
+				<!--<embed src="audio/main.mp3" autostart="true" hidden="true" loop="true" align="right" ></embed> -->
+			</h1>
+
+
+		</div>
+		<div class="content">
+			<ul class="bmenu">
+				<li><a href="javascript:PopUpShow()">Вход</a></li>
+                <li><a href="#">Главная</a></li>
+                <li><a href="javascript:PopUpShow2()">Текущие битвы</a></li>
+                <li><a href="#">Таблица рейтинга</a></li>
+                <li><a href="#">f.a.q.</a></li>
+
+			</ul>
+		</div>
+	</div>
+		<div class="b-popup" id="popup1">
+    		<div class="b-popup-content">
+      		  <form name="lg" method="post" action="">
+      		  	<ul class="log">
+      		    	<li><input type="text" placeholder="Логин" size="40"></li>
+      		  		<li><input type="password" placeholder="Пароль" size="40"></li>
+      		  	</ul>
+      		  </form>
+   			 <a href="javascript:PopUpHide()">Войти</a>
+   			 </div>
+		</div>
+
+<div class="b-popup" id="popup2">
+    <div class="b-popup-content2">
+       <h2>Список битв: <br></h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qTcXxVOM4B0" frameborder="0" allowfullscreen></iframe>
+
+    <a href="javascript:PopUpHide2()">Закрыть<br></a>
+    </div>
+</div>
+
+</body>
+</html>
