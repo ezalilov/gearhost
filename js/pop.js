@@ -12,12 +12,8 @@
         $("#popup1").hide();
     }
 
- $(document).ready(function(){
-        //Скрыть PopUp при загрузке страницы
-        PopUpHide2();
-    });
 
- function PopUpShow2(){
+    function PopUpShow2(){
         $("#popup2").show();
     }
     //Функция скрытия PopUp
